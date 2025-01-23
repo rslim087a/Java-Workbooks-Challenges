@@ -172,9 +172,7 @@ Tasks 7 - 10 are function calls that receive and return `int`.
  */
 ```
 
-`checkRows():` will check every row for a straight X or straight O:
-    - The outer loop must run through each row while the inner loop runs through every character in that row.
-    - In each row, add 1 to count if there's an X. Subtract 1 if there's an O.
+`checkRows():` will check every row for a straight X or straight O. The outer loop must run through each row while the inner loop runs through every character in that row. In each row, add 1 to count if there's an X. Subtract 1 if there's an O.
 
 ![](https://img-c.udemycdn.com/redactor/raw/article_lecture/2025-01-04_01-22-49-97903ae06515871fe2600946097853a9.gif)
 
